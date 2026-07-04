@@ -1,4 +1,4 @@
-(define-module (gostis-package-list better-libglibutil)
+(define-module (gostis-package-list meson-libglibutil)
   #:use-module (guix packages)
   #:use-module (guix download)
   #:use-module (guix gexp)
@@ -11,10 +11,10 @@
   #:use-module (gnu packages pkg-config)
   #:use-module (gnu packages glib))
 
-(define-public better-libglibutil
+(define-public meson-libglibutil
   (package
-    (name "better-libglibutil")
-    (version "0.1.0")
+    (name "meson-libglibutil")
+    (version "1.0.82")
     (source
      (origin
         (method git-fetch)
@@ -34,4 +34,4 @@
       "Libglibutil is a library providing utility functions built on GLib, now provided with the Meson build system for easier setup process and ISO C99 support for general compatibility")
     (home-page "https://github.com/sailfishos/libglibutil")
     (license license:bsd-3)))
-better-libglibutil
+meson-libglibutil
