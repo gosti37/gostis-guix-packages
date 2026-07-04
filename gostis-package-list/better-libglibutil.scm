@@ -1,4 +1,4 @@
-(define-module (better-libglibutil)
+(define-module (gostis-package-list better-libglibutil)
   #:use-module (guix packages)
   #:use-module (guix download)
   #:use-module (guix gexp)
